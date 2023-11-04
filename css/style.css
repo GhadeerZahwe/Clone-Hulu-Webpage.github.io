@@ -26,6 +26,13 @@ h4 {
     text-transform: uppercase;
   }
 
+.header-container .header-content-1 .content-title {
+    color: #00ed82;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+
 a {
     color: #fff;
     text-decoration: none;
@@ -73,6 +80,8 @@ a:hover {
     letter-spacing: 1px;
     cursor: pointer;
     text-transform: uppercase;
+    background-color: #00ed82;
+    color: black;
   }
   
 .btn-cta:hover {
@@ -108,27 +117,43 @@ img {
     height: 3vh;
     align-items: center;
     justify-content: space-between;
-    }
+}
     
 .nav-buttons > ul {
         display: flex;
         list-style: none;
-      }
+}
       
 .nav-buttons > ul > li {
         font-size: 18px;
         margin-right: 20px;
         text-decoration: none;
-      }
+}
     
 .nav-buttons > ul > li > a:hover{
         background-color: #333;
         color: white;
-      }
+}
 
 .logo{
         height: 100%;
-    }
+}
+
+.content-link {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    font-size: 15px;
+    font: inherit;
+    text-decoration: underline;
+    margin-top: 23%;
+}
+
+.content-link a {
+    margin-top: 10px;
+    font-size: 15px;
+}
 
 /* Header */
 .header {
@@ -137,6 +162,43 @@ img {
     background: url(../img/main.jpeg) no-repeat center center / cover;
   }
 
+  .header-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    height: 23vh;
+  }
+
+.header-content-1 {
+    flex-grow: 1;
+    padding: 10px;
+    max-width: 400px;
+    margin-top: 15%;
+    text-align: center;
+    border-radius: 5px;
+    height: 80%;
+}
+
+.header-content-1 .header-text-1 {
+  margin-bottom: 20px;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.header .nav-buttons ul .login-btn{
+        cursor: pointer;
+        background: none;
+        border: none;
+        color: #fff;
+        font-weight: bold;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+      }
+
+.bta-cta {
+  width: 100%;
+}
   .header .navbar div{
     width: 90px;
   }
@@ -167,13 +229,6 @@ img {
     margin: 10px 0;
   }
   
-.header .header-content {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
-    margin-top: 30px;
-  }
 
 /* Sub Header */
 .sub-header {
