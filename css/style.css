@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;600;700&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+html,
+body {
+  font-family: 'Rubik', sans-serif;
+  background: #000;
+  color: #fff;
+  line-height: 1.7;
+  overflow-x: hidden;
+}
+
+ul {
+    list-style-type: none;
+  }
+
+
+/* Header */
+.header {
+    height: 530px;
+    padding: 20px;
+    background: url(../img/main.jpeg) no-repeat center center / cover;
+  }
+
+ 
+.header nav .login-btn {
+    display: flex;
+   justify-content: flex-start;
+    z-index: 2;
+    position: relative;
+  }
+  
+.header nav .login-btn {
+    justify-content: right;
+    cursor: pointer;
+    background: none;
+    border: none;
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+  
+.header  .logo {
+    position: relative;
+    justify-content: left;
+    z-index: 2;
+    width: 60px;
+    margin: 10px 0;
+  }
+  
+.header .header-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 30px;
+  }
+
