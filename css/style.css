@@ -89,13 +89,30 @@ a:hover {
   }
   
 .btn-outline {
+    display: block;
+    width: 18rem;
+    padding: 12px 20px;
+    border: 1px solid #fff;
+    border-radius: 4px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    cursor: pointer;
+    margin-top: 15px;
     background: none;
     color: #fff;
-    border: 2px solid #fff;
+    border: 3px solid #fff;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    opacity: 0.9;
   }
   
+  
 .btn-outline:hover {
-    color: #fff;
+    color: #000000;
+    background-color: white;
     border-color: #ccc;
   }
   
@@ -110,6 +127,14 @@ img {
     height: 100%;
   }
 
+
+.img-size-1{
+    width: 60%;
+}
+
+.img-size-2{
+    width: 90%;
+}
 .navbar{
     display: flex;
     flex-direction: row;
@@ -232,17 +257,30 @@ img {
 
 /* Sub Header */
 .sub-header {
-    display: grid;
+    display: flex;
+    flex-direction: column;
+    display: flex;
     align-items: center;
-    padding: 40px 50px;
+    justify-content: center;
+    padding: 40px 70px;
     background: linear-gradient(
       318.68deg,
-      #28ad60 0%,
-      #38b643 49.72%,
-      #081f0f 100%
+      #48da85 7%,
+      #31b965 40.72%,
+      #092912 100%
     );
   }
 
+  .sub-header .sub-title{
+    margin-left: 40px;
+    align-items: center;
+    
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    
+  }
+  
   .sub-header > div:last-of-type {
     justify-self: center;
     align-self: center;
